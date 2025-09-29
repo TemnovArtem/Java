@@ -22,7 +22,7 @@ public class Main {
         System.out.println("4. Exit");
     }
     public static void choice() {
-        Lab2 objLab2 = new Lab2(0);
+        Lab2 objLab2 = new Lab2();
         Lab1 objLab1 = new Lab1(0, 0);
         Lab3 objLab3 = new Lab3();
         Scanner input = new Scanner(System.in);
